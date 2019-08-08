@@ -5,10 +5,8 @@ import Footer from "../components/footer"
 
 export default ({ children }) => (
   <div className="app__container">
-    <div className="main__container">
-      <Header />
-      {children}
-      <Footer />
-    </div>
+    <Header />
+    <div className="main__container">{children}</div>
+    <Footer />
   </div>
 )

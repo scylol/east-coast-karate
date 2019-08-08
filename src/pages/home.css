@@ -1,0 +1,16 @@
+.home__container {
+    width: 40%;
+}
+
+.home__title {
+    font-size: 50px;
+    color: #050305;
+}
+
+.home__description {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #BBBDC1;
+    line-height: 1.5;
+}
