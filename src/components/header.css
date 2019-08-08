@@ -1,0 +1,10 @@
+.header__navbar {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    color: #050305;
+}
+
+.navbar__item {
+   margin: 50px 25px 25px 25px;
+}

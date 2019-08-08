@@ -1,3 +1,10 @@
 import React from "react"
+import Header from "../components/header"
+import Home from "../pages/home"
+import "./index.css"
 
-export default () => <div>Hello world!</div>
+export default () => (
+  <React.Fragment>
+    <Home />
+  </React.Fragment>
+)
