@@ -1,5 +1,17 @@
-.home__container {
+.home__intro {
     width: 40%;
+    padding-top: 15%;
+}
+
+.home__button {
+    color: white !important;
+    border-radius: 25px !important;
+    padding: 15px 24px !important;
+    background: linear-gradient(45deg, #DB162F, #A51C30);
+}
+
+.home__button:hover {
+    background:linear-gradient(45deg, #FF3C38, #D7263D);
 }
 
 .home__title {
@@ -11,6 +23,51 @@
     margin: 0;
     font-size: 16px;
     font-weight: 400;
-    color: #BBBDC1;
+    color: rgba(0, 0, 0, .57);
     line-height: 1.5;
+    padding-bottom: 32px;
+}
+
+.home__image {
+    height: 400px;
+    padding-top: 20%;
+    padding-left: 200px;
+}
+
+.home__image__text__container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 300px;
+    justify-content: center;
+}
+
+hr {
+    display: inline-block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid black;
+    margin: 0;
+    padding: 0px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.home__image__text__title {
+    display: flex;
+    justify-content: center;
+}
+
+.home__image__text__item {
+    margin: 0;
+    line-height: 1.5;
+    padding-bottom: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, .57);
+    padding-left: 120px;
+}
+
+.home__image__text__item--title {
+    color: #050305;
+    font-size: 32px;
+    padding-left: 20px;
 }

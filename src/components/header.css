@@ -1,14 +1,32 @@
+.header__container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header__navbar {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    width: 75%;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
 }
 
 .navbar__item {
-    color: #050305;
-   margin: 50px 25px 25px 25px;
-   text-decoration: none;
-   font-weight: bold;
-   font-size: 14px;
+  color: #050305;
+  margin: 50px 25px 25px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.header__icon--torii {
+  color: #db162f;
+}
+
+.header__icon--fist {
+  color: #050305;
+  color: #050305;
+  position: absolute;
+  padding-top: 16px;
+  margin-left: -22px;
 }
