@@ -1,15 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFistRaised, faToriiGate } from '@fortawesome/free-solid-svg-icons';
 import "./header.css"
 
 export default () => (
   <div className="header__container">
     <div className="header__icon__container">
       <span className="header__icon--torii">
-        <i class="fas fa-torii-gate fa-2x"></i>
+      <FontAwesomeIcon icon={faToriiGate} size="2x" />
       </span>
       <span className="header__icon--fist">
-        <i class="fas fa-fist-raised"></i>
+      <FontAwesomeIcon icon={faFistRaised} />
       </span>
     </div>
     <ul className="header__navbar">

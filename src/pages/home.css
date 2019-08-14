@@ -17,6 +17,12 @@
 .home__title {
     font-size: 50px;
     color: #050305;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.home__title--red {
+    color: #A51C30;
 }
 
 .home__description {
@@ -24,8 +30,8 @@
     font-size: 16px;
     font-weight: 400;
     color: rgba(0, 0, 0, .57);
-    line-height: 1.5;
-    padding-bottom: 32px;
+    line-height: 1.8;
+    padding-bottom: 10px;
 }
 
 .home__image {
@@ -45,7 +51,7 @@ hr {
     display: inline-block;
     height: 1px;
     border: 0;
-    border-top: 5px solid black;
+    border-top: 5px solid #A51C30;
     margin: 0;
     padding: 0px;
     width: 100px;
@@ -64,6 +70,7 @@ hr {
     font-weight: bold;
     color: rgba(0, 0, 0, .57);
     padding-left: 120px;
+    width: 175px;
 }
 
 .home__image__text__item--title {
