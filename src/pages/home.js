@@ -6,84 +6,30 @@ import Layout from "../components/layout"
 export class Home extends React.Component {
 
   componentDidMount = () => {
-    let lineTimeline = anime.timeline({
-      easing: 'easeOutExpo',
-      duration: 2000,
-      loop: true,
-    });
+    // let lineTimeline = anime.timeline({
+    //   easing: 'easeOutExpo',
+    //   duration: 2000,
+    //   loop: true,
+    // });
     
-    // Add children
-    lineTimeline
-    .add({
-      targets: '.home__line',
-      translateY: 40,
-    }, '+=3000')
-    .add({
-      targets: '.home__line',
-      translateY: 80,
-    }, '+=3000')
-    .add({
-      targets: '.home__line',
-      translateY: 120,
-    }, '+=3000')
-    .add({
-      targets: '.home__line',
-      translateY: 0,
-    }, '+=3000');
-
-    let largeTimeline = anime.timeline({
-      easing: 'easeOutExpo',
-      duration: 2000,
-      loop: true,
-    });
-    largeTimeline
-    .add({
-      targets: '.home__image__text__item--second',
-      fontSize: '32px',
-      color: '#050305',
-    }, '+=3000')
-    .add({
-      targets: '.home__image__text__item--third',
-      fontSize: '32px',
-      color: '#050305',
-    }, '+=3000')
-    .add({
-      targets: '.home__image__text__item--fourth',
-      fontSize: '32px',
-      color: '#050305',
-    }, '+=3000')
-    .add({
-      targets: '.home__image__text__item--title',
-      fontSize: '32px',
-      color: '#050305',
-    }, '+=3000');
-
-    let smallTimeline = anime.timeline({
-      easing: 'easeOutExpo',
-      duration: 2000,
-      loop: true,
-    });
-    smallTimeline
-    .add({
-      targets: '.home__image__text__item--title',
-      fontSize: '16px',
-      color: 'rgba(0, 0, 0, .57)',
-    }, '+=3000')
-    .add({
-      targets: '.home__image__text__item--second',
-      fontSize: '16px',
-      color: 'rgba(0, 0, 0, .57)',
-    }, '+=3000')
-    .add({
-      targets: '.home__image__text__item--third',
-      fontSize: '16px',
-      color: 'rgba(0, 0, 0, .57)',
-    }, '+=3000')
-    .add({
-      targets: '.home__image__text__item--fourth',
-      fontSize: '16px',
-      color: 'rgba(0, 0, 0, .57)',
-    }, '+=3000');
+    // // Add children
+    // lineTimeline
+    // .add({
+    //   targets: '.home__line',
+    //   translateY: 40,
+    // }, '+=3000')
+    // .add({
+    //   targets: '.home__line',
+    //   translateY: 80,
+    // }, '+=3000')
+    // .add({
+    //   targets: '.home__line',
+    //   translateY: 120,
+    // }, '+=3000')
+    // .add({
+    //   targets: '.home__line',
+    //   translateY: 0,
+    // }, '+=3000');
   }
   render() {
     
