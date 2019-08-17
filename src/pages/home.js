@@ -53,25 +53,25 @@ export class Home extends React.Component {
         />
         <div className="home__image__text__container">
           <div className="home__image__text__title">
-            <hr className="home__line home__line--title" />
+            <div className="home__line home__line--title" />
             <p className="home__image__text__item home__image__text__item--title">
               Karate.
             </p>
           </div>
           <div className="home__image__text__title">
-            <hr className="home__line home__line--second" />
+            <div className="home__line home__line--second" />
             <p className="home__image__text__item home__image__text__item--second">
               Haganah.
             </p>
           </div>
           <div className="home__image__text__title">
-            <hr className="home__line home__line--third" />
+            <div className="home__line home__line--third" />
             <p className="home__image__text__item home__image__text__item--third">
               Krav Maga.
             </p>
           </div>
           <div className="home__image__text__title">
-            <hr className="home__line home__line--fourth" />
+            <div className="home__line home__line--fourth" />
             <p className="home__image__text__item home__image__text__item--fourth">
               Kickboxing.
             </p>
