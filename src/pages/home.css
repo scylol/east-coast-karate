@@ -18,7 +18,7 @@
   font-size: 50px;
   color: #050305;
   margin: 0;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .home__title--red {
@@ -31,7 +31,7 @@
   font-weight: 400;
   color: rgba(0, 0, 0, 0.57);
   line-height: 1.8;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .home__image {
@@ -47,15 +47,47 @@
   justify-content: center;
 }
 
-hr {
+.home__line {
   display: inline-block;
   height: 1px;
   border: 0;
   border-top: 5px solid #a51c30;
   margin: 0;
   padding: 0px;
-  width: 100px;
+  width: 0px;
   margin-top: 20px;
+}
+
+.home__line--title {
+  animation: lineEnlarge 20s ease infinite;
+  -webkit-animation: lineEnlarge 20s ease infinite;
+}
+
+.home__line--second {
+  animation: lineEnlarge 20s ease 5s infinite;;
+  -webkit-animation: lineEnlarge 20s ease 5s infinite;;
+}
+
+.home__line--third {
+  animation: lineEnlarge 20s ease 10s infinite;;
+  -webkit-animation: lineEnlarge 20s ease 10s infinite;;
+}
+
+.home__line--fourth {
+  animation: lineEnlarge 20s ease 15s infinite;;
+  -webkit-animation: lineEnlarge 20s ease 15s infinite;;
+}
+
+@keyframes lineEnlarge {
+  0%,
+  25%,
+  100% {
+    width: 0px;
+  }
+  2.5%,
+  22.5% {
+    width: 100px;
+  }
 }
 
 .home__image__text__title {
@@ -75,80 +107,36 @@ hr {
 }
 
 .home__image__text__item--title {
-  color: #050305;
-  font-size: 32px;
   padding-left: 20px;
-  -webkit-animation-name: shrinkText; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
-  animation-name: shrinkText;
-  animation-duration: 20s;
-  animation-delay: 3s;
-  animation-iteration-count: infinite;
+  animation: textEnlarge 20s ease infinite;
+  -webkit-animation: textEnlarge 20s ease infinite;
 }
 
 .home__image__text__item--second {
-  -webkit-animation-name: enlargeText; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
-  animation-name: enlargeText;
-  animation-duration: 20s;
-  animation-delay: 3s;
-  animation-iteration-count: infinite;
+  animation: textEnlarge 20s ease 5s infinite;
+  -webkit-animation: textEnlarge 20s ease 5s infinite;
 }
 .home__image__text__item--third {
-  -webkit-animation-name: enlargeText; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
-  animation-name: enlargeText;
-  animation-duration: 20s;
-  animation-delay: 8s;
-  animation-iteration-count: infinite;
+  animation: textEnlarge 20s ease 10s infinite;
+  -webkit-animation: textEnlarge 20s ease 10s infinite;
 }
 .home__image__text__item--fourth {
-  -webkit-animation-name: enlargeText; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
-  animation-name: enlargeText;
-  animation-duration: 20s;
-  animation-delay: 13s;
-  animation-iteration-count: infinite;
+  animation: textEnlarge 20s ease 15s infinite;
+  -webkit-animation: textEnlarge 20s ease 15s infinite;
 }
 
-/* The animation code */
-@keyframes shrinkText {
+@keyframes textEnlarge {
   0%,
-  100% {
-    font-size: 32px;
-    color: #050305;
-  }
-  25% {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.57);
-  }
-  50% {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.57);
-  }
-  75% {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.57);
-  }
-}
-
-/* The animation code */
-@keyframes enlargeText {
-  0%,
+  25%,
   100% {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.57);
+    padding-left: 120px;
   }
-  25% {
+  2.5%,
+  22.5% {
     font-size: 32px;
     color: #050305;
-  }
-  50% {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.57);
-  }
-  75% {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.57);
+    padding-left: 20px;
   }
 }
