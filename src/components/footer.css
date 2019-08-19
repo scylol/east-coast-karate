@@ -1,8 +1,7 @@
 .footer__container {
-    position: absolute;
-    bottom: 0;
     width: 80%;
-    margin-bottom: 48px;
+    padding-bottom: 30px;
+    padding-top: 50px;
 }
 
 .footer__title {
