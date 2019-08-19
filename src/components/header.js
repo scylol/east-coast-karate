@@ -31,6 +31,11 @@ export default () => (
         </Link>
       </li>
       <li>
+        <Link className="navbar__item" to="/instructors/">
+          Instructors
+        </Link>
+      </li>
+      <li>
         <Link className="navbar__item" to="/contact/">
           Contact Us
         </Link>

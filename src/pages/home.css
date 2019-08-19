@@ -38,6 +38,20 @@
   height: 400px;
   padding-top: 20%;
   padding-left: 200px;
+  animation: imageFade 20s ease infinite;
+  -webkit-animation: imageFade 20s ease infinite;
+}
+
+@keyframes imageFade {
+  0%,
+  25%,
+  100% {
+    opacity: 0;
+  }
+  2.5%,
+  22.5% {
+    opacity: 1;
+  }
 }
 
 .home__image__text__container {
