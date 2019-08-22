@@ -1,6 +1,8 @@
 .home__intro {
   width: 40%;
-  padding-top: 15%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .home__button {
@@ -8,6 +10,7 @@
   border-radius: 25px !important;
   padding: 15px 24px !important;
   background: linear-gradient(45deg, #db162f, #a51c30);
+  width: 30%;
 }
 
 .home__button:hover {
@@ -34,12 +37,37 @@
   padding-bottom: 15px;
 }
 
+.home__image__container {
+  display: flex;
+  align-items: flex-end;
+}
+
 .home__image {
-  height: 400px;
-  padding-top: 20%;
-  padding-left: 200px;
+  height: 440px;
+    opacity: 0;
+    position: absolute;
+    right: 425px;
+    bottom: 115px;
+}
+
+.home__image--first {
   animation: imageFade 20s ease infinite;
   -webkit-animation: imageFade 20s ease infinite;
+}
+
+.home__image--second {
+  animation: imageFade 20s ease 5s infinite;
+  -webkit-animation: imageFade 20s ease 5s infinite;
+}
+
+.home__image--third {
+  animation: imageFade 20s ease 10s infinite;
+  -webkit-animation: imageFade 20s ease 10s infinite;
+}
+
+.home__image--fourth {
+  animation: imageFade 20s ease 15s infinite;
+  -webkit-animation: imageFade 20s ease 15s infinite;
 }
 
 @keyframes imageFade {
@@ -51,14 +79,14 @@
   2.5%,
   22.5% {
     opacity: 1;
+    bottom: 135px;
   }
 }
 
 .home__image__text__container {
   display: flex;
   flex-direction: column;
-  padding-top: 300px;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .home__line {
@@ -78,18 +106,18 @@
 }
 
 .home__line--second {
-  animation: lineEnlarge 20s ease 5s infinite;;
-  -webkit-animation: lineEnlarge 20s ease 5s infinite;;
+  animation: lineEnlarge 20s ease 5s infinite;
+  -webkit-animation: lineEnlarge 20s ease 5s infinite;
 }
 
 .home__line--third {
-  animation: lineEnlarge 20s ease 10s infinite;;
-  -webkit-animation: lineEnlarge 20s ease 10s infinite;;
+  animation: lineEnlarge 20s ease 10s infinite;
+  -webkit-animation: lineEnlarge 20s ease 10s infinite;
 }
 
 .home__line--fourth {
-  animation: lineEnlarge 20s ease 15s infinite;;
-  -webkit-animation: lineEnlarge 20s ease 15s infinite;;
+  animation: lineEnlarge 20s ease 15s infinite;
+  -webkit-animation: lineEnlarge 20s ease 15s infinite;
 }
 
 @keyframes lineEnlarge {

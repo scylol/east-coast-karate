@@ -46,35 +46,52 @@ export class Home extends React.Component {
             Try for Free
           </Button>
         </div>
-        <img
-          className="home__image"
-          src="/images/karate-sil.png"
-          alt="silhouette"
-        />
-        <div className="home__image__text__container">
-          <div className="home__image__text__title">
-            <div className="home__line home__line--title" />
-            <p className="home__image__text__item home__image__text__item--title">
-              Karate.
-            </p>
-          </div>
-          <div className="home__image__text__title">
-            <div className="home__line home__line--second" />
-            <p className="home__image__text__item home__image__text__item--second">
-              Haganah.
-            </p>
-          </div>
-          <div className="home__image__text__title">
-            <div className="home__line home__line--third" />
-            <p className="home__image__text__item home__image__text__item--third">
-              Krav Maga.
-            </p>
-          </div>
-          <div className="home__image__text__title">
-            <div className="home__line home__line--fourth" />
-            <p className="home__image__text__item home__image__text__item--fourth">
-              Kickboxing.
-            </p>
+        <div className="home__image__container">
+          <img
+            className="home__image home__image--first"
+            src="/images/sil1.png"
+            alt="silhouette"
+          />
+          <img
+            className="home__image home__image--second"
+            src="/images/sil2.png"
+            alt="silhouette"
+          />
+          <img
+            className="home__image home__image--third"
+            src="/images/sil3.png"
+            alt="silhouette"
+          />
+          <img
+            className="home__image home__image--fourth"
+            src="/images/sil4.png"
+            alt="silhouette"
+          />
+          <div className="home__image__text__container">
+            <div className="home__image__text__title">
+              <div className="home__line home__line--title" />
+              <p className="home__image__text__item home__image__text__item--title">
+                Karate.
+              </p>
+            </div>
+            <div className="home__image__text__title">
+              <div className="home__line home__line--second" />
+              <p className="home__image__text__item home__image__text__item--second">
+                Haganah.
+              </p>
+            </div>
+            <div className="home__image__text__title">
+              <div className="home__line home__line--third" />
+              <p className="home__image__text__item home__image__text__item--third">
+                Krav Maga.
+              </p>
+            </div>
+            <div className="home__image__text__title">
+              <div className="home__line home__line--fourth" />
+              <p className="home__image__text__item home__image__text__item--fourth">
+                Kickboxing.
+              </p>
+            </div>
           </div>
         </div>
       </Layout>
