@@ -16,23 +16,19 @@
 
 .about__section {
     align-items: center;
-}
-
-.about__section-right {
-    display: flex;
-    justify-content: space-around;
-}
-
-.about__section-left {
     display: flex;
     justify-content: space-around;
 }
 
 .about__title {
     margin: 0;
-    font-size: 50px;
-    color: #a51c30;
-
+    font-size: 184px;
+    position: absolute;
+    right: 0px;
+    top: -40px;
+    color: rgba(0, 0, 0, 0.57);
+    opacity: .25;
+    z-index: -1;
 }
 
 .about__description {

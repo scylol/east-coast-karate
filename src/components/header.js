@@ -16,27 +16,27 @@ export default () => (
     </div>
     <ul className="header__navbar">
       <li>
-        <Link className="navbar__item" to="/">
+        <Link className="navbar__item"  activeClassName="active active--home" to="/">
           Home
         </Link>
       </li>
       <li>
-        <Link className="navbar__item" to="/about/">
+        <Link className="navbar__item" activeClassName="active active--about" to="/about/">
           About Us
         </Link>
       </li>
       <li>
-        <Link className="navbar__item" to="/courses/">
+        <Link className="navbar__item" activeClassName="active active--classes" to="/courses/">
           Classes
         </Link>
       </li>
       <li>
-        <Link className="navbar__item" to="/instructors/">
+        <Link className="navbar__item" activeClassName="active active--instructors" to="/instructors/">
           Instructors
         </Link>
       </li>
       <li>
-        <Link className="navbar__item" to="/contact/">
+        <Link className="navbar__item" activeClassName="active active--contact" to="/contact/">
           Contact Us
         </Link>
       </li>

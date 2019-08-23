@@ -30,3 +30,34 @@
   padding-top: 16px;
   margin-left: -22px;
 }
+
+.active::after {
+  content: '';
+  border-bottom: 2px solid #db162f;
+  position: absolute;
+}
+
+.active--home::after {
+  width: 50px;
+  transform: translate(-45px, 9px);
+}
+
+.active--about::after {
+  width: 75px;
+  transform: translate(-69px, 9px);
+}
+
+.active--classes::after {
+  width: 66px;
+  transform: translate(-60px, 9px);
+}
+
+.active--instructors::after {
+  width: 85px;
+  transform: translate(-79px, 9px);
+}
+
+.active--contact::after {
+  width: 85px;
+  transform: translate(-79px, 9px);
+}

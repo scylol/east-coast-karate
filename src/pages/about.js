@@ -5,9 +5,9 @@ import "./about.css"
 export default () => (
   <Layout>
     <div className="about__container">
-      <h1 className="about__title">About Us</h1>
+      <h1 className="about__title">ABOUT US</h1>
       <div className="about__content">
-        <div className="about__section about__section-left">
+        <div className="about__section">
           <p className="about__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
             vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
@@ -20,7 +20,7 @@ export default () => (
           alt="gloves"
         />
         </div>
-        <div className="about__section about__section-right">
+        <div className="about__section">
         <img
           className="about__image--second"
           src="/images/karate-gi.png"
@@ -33,7 +33,7 @@ export default () => (
             cursus leo dignissim quis. Sed feugiat, lacus sed euismod accumsan,
           </p>
         </div>
-        <div className="about__section about__section-left">
+        <div className="about__section">
           <p className="about__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
             vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
