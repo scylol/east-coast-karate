@@ -9,15 +9,15 @@ export default () => (
     <div className="classes__container">
       <h1 className="classes__title">CLASSES</h1>
       <div className="classes__content">
-        <ClassSection title="Kids">
+        <ClassSection>
           <ClassItem
-            title="Karate"
+            title="Kid's Karate"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
         vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
         ipsum vitae, venenatis pretium eros. Nullam ultrices tellus nunc, eu
         cursus leo dignissim quis. Sed feugiat, lacus sed euismod accumsan,"
-        className="kid"
-        imageName="karate-high-kick"
+            className="kid"
+            imageName="karate-high-kick"
           />
           <ClassItem
             title="Black Belt Club"
@@ -25,19 +25,19 @@ export default () => (
         vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
         ipsum vitae, venenatis pretium eros. Nullam ultrices tellus nunc, eu
         cursus leo dignissim quis. Sed feugiat, lacus sed euismod accumsan,"
-        className="kid"
-        imageName="belt"
+            className="kid"
+            imageName="belt"
           />
         </ClassSection>
-        <ClassSection title="Adults">
+        <ClassSection>
           <ClassItem
-            title="Karate"
+            title="Adult's Karate"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
         vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
         ipsum vitae, venenatis pretium eros. Nullam ultrices tellus nunc, eu
         cursus leo dignissim quis. Sed feugiat, lacus sed euismod accumsan,"
-        className="adult"
-        imageName="nunchucks"
+            className="adult"
+            imageName="nunchucks"
           />
           <ClassItem
             title="Haganah"
@@ -45,8 +45,8 @@ export default () => (
         vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
         ipsum vitae, venenatis pretium eros. Nullam ultrices tellus nunc, eu
         cursus leo dignissim quis. Sed feugiat, lacus sed euismod accumsan,"
-        className="adult"
-        imageName="knife"
+            className="adult"
+            imageName="knife"
           />
           <ClassItem
             title="Ground Survival"
@@ -54,8 +54,8 @@ export default () => (
         vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
         ipsum vitae, venenatis pretium eros. Nullam ultrices tellus nunc, eu
         cursus leo dignissim quis. Sed feugiat, lacus sed euismod accumsan,"
-        className="adult"
-        imageName="karate-throw"
+            className="adult"
+            imageName="karate-throw"
           />
         </ClassSection>
       </div>
