@@ -1,0 +1,9 @@
+.classes__section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.classes__item__container {
+    display: flex;
+}

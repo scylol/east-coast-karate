@@ -26,7 +26,7 @@ export default () => (
         </Link>
       </li>
       <li>
-        <Link className="navbar__item" activeClassName="active active--classes" to="/courses/">
+        <Link className="navbar__item" activeClassName="active active--classes" to="/classes/">
           Classes
         </Link>
       </li>

@@ -1,7 +1,7 @@
 import React from "react"
 import "./layout.css"
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Header from "./header"
+import Footer from "./footer"
 
 export default ({ children }) => (
   <div className="app__container">

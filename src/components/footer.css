@@ -19,6 +19,11 @@
   margin-right: 25px;
   color: rgba(0, 0, 0, .57);
   cursor: pointer;
+  text-decoration: none;
+}
+
+.footer__item:hover {
+  color: #a51c30;
 }
 
 ul {

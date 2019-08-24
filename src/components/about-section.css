@@ -1,0 +1,16 @@
+.about__section {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about__description {
+    margin: 0;
+    width: 50%;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.57);
+}
+
+.about__image {
+    width: 200px;
+}
