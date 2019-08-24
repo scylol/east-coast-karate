@@ -6,4 +6,11 @@
 
 .classes__item__container {
     display: flex;
+    justify-content: space-around;
+}
+
+.classes__section__title {
+    font-size: 50px;
+    margin: 0;
+    color: #a51c30;
 }

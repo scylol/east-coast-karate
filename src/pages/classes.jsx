@@ -16,6 +16,8 @@ export default () => (
         vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
         ipsum vitae, venenatis pretium eros. Nullam ultrices tellus nunc, eu
         cursus leo dignissim quis. Sed feugiat, lacus sed euismod accumsan,"
+        className="kid"
+        imageName="karate-high-kick"
           />
           <ClassItem
             title="Black Belt Club"
@@ -23,6 +25,8 @@ export default () => (
         vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
         ipsum vitae, venenatis pretium eros. Nullam ultrices tellus nunc, eu
         cursus leo dignissim quis. Sed feugiat, lacus sed euismod accumsan,"
+        className="kid"
+        imageName="belt"
           />
         </ClassSection>
         <ClassSection title="Adults">
@@ -32,6 +36,8 @@ export default () => (
         vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
         ipsum vitae, venenatis pretium eros. Nullam ultrices tellus nunc, eu
         cursus leo dignissim quis. Sed feugiat, lacus sed euismod accumsan,"
+        className="adult"
+        imageName="nunchucks"
           />
           <ClassItem
             title="Haganah"
@@ -39,6 +45,8 @@ export default () => (
         vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
         ipsum vitae, venenatis pretium eros. Nullam ultrices tellus nunc, eu
         cursus leo dignissim quis. Sed feugiat, lacus sed euismod accumsan,"
+        className="adult"
+        imageName="knife"
           />
           <ClassItem
             title="Ground Survival"
@@ -46,6 +54,8 @@ export default () => (
         vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
         ipsum vitae, venenatis pretium eros. Nullam ultrices tellus nunc, eu
         cursus leo dignissim quis. Sed feugiat, lacus sed euismod accumsan,"
+        className="adult"
+        imageName="karate-throw"
           />
         </ClassSection>
       </div>
