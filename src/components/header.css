@@ -19,6 +19,10 @@
   font-size: 14px;
 }
 
+.navbar__item:hover {
+  color: #a51c30;
+}
+
 .header__icon--torii {
   color: #a51c30;
 }

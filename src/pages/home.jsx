@@ -1,6 +1,6 @@
 import React from "react"
 import Button from "@material-ui/core/Button"
-import anime from "animejs/lib/anime.es.js"
+import { Link } from "gatsby"
 import "./home.css"
 import Layout from "../components/layout"
 export default () => (
@@ -16,7 +16,7 @@ export default () => (
         enjoy building websites.
       </p>
       <Button className="home__button" variant="contained" size="large">
-        Try for Free
+        <Link className="home__button__link" to="/contact/">Try for Free</Link>
       </Button>
     </div>
     <div className="home__image__container">
