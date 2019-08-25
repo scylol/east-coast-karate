@@ -20,8 +20,9 @@
     position: absolute;
     right: 0px;
     top: -40px;
-    color: rgba(0, 0, 0, 0.57);
+    color: rgba(0,0,0,.4);
     opacity: .25;
     z-index: -1;
+    letter-spacing: -6px;
 }
 

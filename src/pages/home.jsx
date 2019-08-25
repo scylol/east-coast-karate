@@ -15,9 +15,11 @@ export default () => (
         building websites. What do I like to do? Lots of course but definitely
         enjoy building websites.
       </p>
-      <Button className="home__button" variant="contained" size="large">
-        <Link className="home__button__link" to="/contact/">Try for Free</Link>
-      </Button>
+      <Link className="home__button__link" to="/contact/">
+        <Button className="home__button" variant="contained" size="large">
+          Try for Free
+        </Button>
+      </Link>
     </div>
     <div className="home__image__container">
       <img
