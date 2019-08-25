@@ -11,7 +11,16 @@ export default () => (
       <div className="classes__content">
         <ClassSection>
           <ClassItem
-            title="Kid's Karate"
+            title="Kid Karate"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+        vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
+        ipsum vitae, venenatis pretium eros. Nullam ultrices tellus nunc, eu
+        cursus leo dignissim quis. Sed feugiat, lacus sed euismod accumsan,"
+            className="kid"
+            imageName="karate-high-kick"
+          />
+          <ClassItem
+            title="Kid Karate"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
         vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
         ipsum vitae, venenatis pretium eros. Nullam ultrices tellus nunc, eu
@@ -31,7 +40,7 @@ export default () => (
         </ClassSection>
         <ClassSection>
           <ClassItem
-            title="Adult's Karate"
+            title="Adult Karate"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
         vehicula velit ut faucibus rhoncus. Quisque nibh orci, consequat in
         ipsum vitae, venenatis pretium eros. Nullam ultrices tellus nunc, eu
