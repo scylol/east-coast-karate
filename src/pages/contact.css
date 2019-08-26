@@ -1,0 +1,116 @@
+.contact__container {
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact__title {
+  margin: 0;
+  font-size: 184px;
+  position: absolute;
+  right: 0px;
+  top: -40px;
+  color: rgba(0, 0, 0, 0.4);
+  opacity: 0.25;
+  z-index: -1;
+  letter-spacing: -10px;
+}
+
+.contact__info__section {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.contact__info__intro {
+  width: 35%;
+}
+
+.contact__info__header {
+  font-size: 50px;
+  color: #050305;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.contact__info__description,
+.contact__phoneNumber {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.57);
+  line-height: 1.8;
+  padding-bottom: 15px;
+}
+
+.contact__info_bold {
+  color: #a51c30;
+  font-weight: bold;
+}
+
+.contact__phoneNumber {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.contact__icon__phone {
+  color: #a51c30;
+}
+
+.contact__icon__phone--home {
+  margin-left: -6px;
+}
+
+/* Form */
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact__label {
+  margin-top: 15px;
+  color: #050305;
+}
+
+.contact__form__input,
+.contact__form__textArea {
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 5px;
+  color: #324851;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact__form__textArea {
+  resize: none;
+}
+
+.contact__submit {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.contact__submit {
+  background: linear-gradient(45deg, #db162f, #a51c30);
+  color: white;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
