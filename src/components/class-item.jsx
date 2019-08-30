@@ -10,6 +10,10 @@ function ClassItem(props) {
         />
       <p className="classes__item__title">{props.title}</p>
       <p className="classes__item__description">{props.description}</p>
+      <p className="classes__item__time__header">Schedule</p>
+      <p className="classes__item__time__item">{props.time1}</p>
+      <p className="classes__item__time__item">{props.time2}</p>
+      <p className="classes__item__time__item">{props.time3}</p>
     </div>
   )
 }

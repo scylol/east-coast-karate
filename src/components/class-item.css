@@ -16,10 +16,15 @@
   width: 50px;
 }
 
-.classes__item__description {
+.classes__item__description, .classes__item__time__item, .classes__item__time__header {
   margin: 0;
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.57);
   text-align: justify;
   text-align-last: center;
+  padding-bottom: 10px;
+}
+
+.classes__item__time__header {
+  font-weight: bold;
 }
