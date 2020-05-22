@@ -25,6 +25,10 @@
   padding-bottom: 10px;
 }
 
+.classes__item__time__item {
+text-align: center;
+}
+
 .classes__item__time__header {
   font-weight: bold;
 }

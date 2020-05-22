@@ -10,7 +10,7 @@
   border-radius: 25px !important;
   padding: 15px 24px !important;
   background: linear-gradient(45deg, #db162f, #a51c30);
-  width: 30%;
+  width: 100%;
 }
 
 .home__button:hover {
@@ -20,6 +20,7 @@
 .home__button__link {
   text-decoration: none;
   color: white;
+  width: 200px;
 }
 
 .home__title {
@@ -49,10 +50,10 @@
 
 .home__image {
   height: 440px;
-    opacity: 0;
-    position: absolute;
-    right: 425px;
-    bottom: 115px;
+  opacity: 0;
+  position: absolute;
+  right: 425px;
+  bottom: 115px;
 }
 
 .home__image--first {
@@ -92,7 +93,6 @@
 .home__image__text__container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 }
 
 .home__line {
@@ -186,5 +186,34 @@
     font-size: 32px;
     color: #050305;
     padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .home__image {
+    right: 300px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .main__container {
+    flex-direction: column;
+  }
+  .home__intro {
+    width: 100%;
+    padding-top: 100px;
+  }
+  .home__image__container {
+    flex-direction: column;
+  }
+  .home__image {
+    right: 310px;
+    top: 430px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .home__image__container {
+    display: none;
   }
 }
